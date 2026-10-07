@@ -1,0 +1,14 @@
+{
+  "total_count": 13,
+  "workflow_runs": [
+    {
+      "id": 1000000002,
+      "name": "ci",
+      "head_branch": "main",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "html_url": "https://github.com/example-user/example-repo/actions/runs/1000000002"
+    }
+  ]
+}

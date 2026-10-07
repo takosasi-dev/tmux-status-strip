@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.11 は tomllib が入った版(下限)、3.14 は Arch が今入っている版
+        python: ["3.11", "3.14"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: fixture のテスト
+        run: python tests/run_all.py
+
+      # 本物の /proc で2回呼ぶ(2回目は cpu と net の差分が出る)。設定なし = 通信しない
+      - name: 本物の /proc で動かす
+        run: |
+          python -m statusstrip --plain
+          sleep 1
+          python -m statusstrip --plain
+          python -m statusstrip
