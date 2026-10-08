@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="868" height="274" viewBox="0 0 868 274">
+<rect width="100%" height="100%" rx="10" fill="#1b1e24"/>
+<rect width="100%" height="30" rx="10" fill="#2b2f37"/><rect y="20" width="100%" height="10" fill="#2b2f37"/>
+<circle cx="18" cy="15.0" r="6" fill="#ff5f57"/>
+<circle cx="38" cy="15.0" r="6" fill="#febc2e"/>
+<circle cx="58" cy="15.0" r="6" fill="#28c840"/>
+<text x="434" y="20.0" fill="#8b929e" font-size="13" text-anchor="middle" font-family="sans-serif">tmux</text>
+<g font-family="'DejaVu Sans Mono',Consolas,Menlo,'MS Gothic',monospace" font-size="14" fill="#d4d7dd">
+<text x="14.0" y="57" textLength="210.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$ statusstrip --plain    </text>
+<text x="14.0" y="75" textLength="420.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">CPU 2% | MEM 4% | LOAD 0.08 | DISK 0%             </text>
+<text x="14.0" y="93" textLength="210.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$                        </text>
+<rect x="14.0" y="242" width="580.2" height="18" fill="#2b2f37" shape-rendering="crispEdges"/>
+<text x="14.0" y="255" textLength="579.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">[0] 0:bash*                                                    CPU 1%</text>
+<rect x="593.6" y="242" width="25.8" height="18" fill="#2b2f37" shape-rendering="crispEdges"/>
+<text x="593.6" y="255" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#808080"> | </text>
+<rect x="618.8" y="242" width="51.0" height="18" fill="#2b2f37" shape-rendering="crispEdges"/>
+<text x="618.8" y="255" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MEM 4%</text>
+<rect x="669.2" y="242" width="25.8" height="18" fill="#2b2f37" shape-rendering="crispEdges"/>
+<text x="669.2" y="255" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#808080"> | </text>
+<rect x="694.4" y="242" width="76.2" height="18" fill="#2b2f37" shape-rendering="crispEdges"/>
+<text x="694.4" y="255" textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">LOAD 0.15</text>
+<rect x="770.0" y="242" width="25.8" height="18" fill="#2b2f37" shape-rendering="crispEdges"/>
+<text x="770.0" y="255" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="#808080"> | </text>
+<rect x="795.2" y="242" width="59.4" height="18" fill="#2b2f37" shape-rendering="crispEdges"/>
+<text x="795.2" y="255" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">DISK 0%</text>
+</g></svg>

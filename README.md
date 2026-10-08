@@ -1,3 +1,5 @@
+<img src="docs/icon.svg" width="96" alt="StatusStrip のアイコン">
+
 # tmux(StatusStrip)
 
 tmux の下の帯(`status-right` など)に、CPU・メモリ・ディスク・GitHub Actions の結果・天気などを
@@ -5,7 +7,11 @@ tmux の下の帯(`status-right` など)に、CPU・メモリ・ディスク・G
 
 ## 画面
 
-帯の右側はこう見えます(色は tmux の `#[fg=...]` で付きます。閾値を超えた値は黄・赤、取れない値は薄い色の `?`)。
+下の帯の右側が statusstrip の出す1行です(この画像は `cpu` `mem` `load` `disk` だけを出す設定。上は `--plain` で同じ1行を出したところ)。
+
+![StatusStrip の画面](docs/screen.svg)
+
+ほかのセグメントも並べると、帯の右側はこう見えます(色は tmux の `#[fg=...]` で付きます。閾値を超えた値は黄・赤、取れない値は薄い色の `?`)。
 
 ```
 [main] 0:vim*  1:zsh-              CPU 12% | MEM 43% | LOAD 0.52 | DISK 61% | CI dbc-agent:o | Partly cloudy +18°C
